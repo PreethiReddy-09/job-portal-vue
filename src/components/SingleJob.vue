@@ -23,13 +23,13 @@
         margin: 2px;
     }
     div{
-        background-color: purple;
         color: black;
         padding: 1em;
     }
     .job-details{
         border: 2px solid #000;
         color: black;
+        background-color: silver;
     }
     .job-title{
         text-align: center;
