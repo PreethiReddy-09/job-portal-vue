@@ -1,18 +1,20 @@
 <template>
   <MyHeader appName="JOB PORTAL"/> 
   <JobList :jobs=jobs />
+  <FooterComponent />
 </template>
 
 <script>
 import MyHeader from './components/MyHeader.vue'
 import JobList from './components/JobList.vue'
-
+import FooterComponent from './components/FooterComponent.vue'
 
 export default{
   name: 'App',
   components:{
     MyHeader,
-    JobList
+    JobList,
+    FooterComponent
   },
   data(){
     return {

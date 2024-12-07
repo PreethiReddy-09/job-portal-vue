@@ -1,6 +1,6 @@
 <template>
     <div class="job-list">
-        <div v-for="job of jobs" :key="job.job_title" > 
+        <div v-for="job of jobs" :key="job.job_title" class="jobs-container" > 
             <SingleJob :job=job />
         </div>
     </div>
@@ -27,5 +27,8 @@ export default {
         padding: 1rem;
         width: 65%;
         margin: auto;
+    }
+    .jobs-container{
+       width:100%;
     }
 </style>
